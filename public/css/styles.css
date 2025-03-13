@@ -1,0 +1,57 @@
+.chat .author {
+    justify-self: end;
+    font-weight: bold;
+    background-color: rgb(38, 182, 208);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.chat .message {
+    background-color: rgba(62, 205, 62, 0.7);
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.chat .bottom {
+    background-color: aquamarine;
+    margin-top: 2%;
+    padding: 20px;
+    justify-items: center;
+}
+
+.chat .bottom form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+.chat .bottom input {
+    padding: 2%;
+    font-size: large;
+}
+
+.chat .bottom button {
+    padding: 3%;
+    margin-top: 2%;
+    background-color: rgb(59, 249, 63);
+    color: black;
+    margin-left: 30%;
+    font-weight: bold;
+}
+
+.chat .bottom button:hover {
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.chat .response {
+    background-color: rgba(105, 225, 185, 0.7);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 2%;
+    margin: 2%;
+}
